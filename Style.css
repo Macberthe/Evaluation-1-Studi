@@ -2,3 +2,6 @@
     margin: 10px;
     border-radius: 50%;
 }
+.bg-dark {
+    opacity: 85%;
+}
