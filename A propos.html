@@ -15,29 +15,36 @@
 </head>
 <body>
     <header>
-        <div class="row">
-            <div class="container-fluid">
                 <!--nav-->
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#">
-                        <img src="Logo/Logo.jpg" alt="logo" height="50px" width="50px" class="logo">
-                    </a>
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">A propos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Réalisations</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Evènements</a>
-                            </li>
-                        </ul>
+                    <div class="container-fluid">
+                        <button class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarToggler"
+                                aria-controls="navbarToggler"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="Logo/Logo.jpg" alt="logo" height="50px" width="50px" class="logo">
+                        </a>
+                        <div class="collapse navbar-collapse" id="navbarToggler">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">A propos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Réalisations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Evènements</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
-            </div>
-        </div>
     </header>
     <main class="container-fluid">
         <h1>La Comté des Drones</h1>
@@ -59,10 +66,10 @@
             <!--Aside-->
             <aside class="col-md-4 shadow p-3 mb-5 bg-body rounded">
                 <h3>Evènements à venir</h3>
-                <div class="d-flex flex-column bd-highlight">
-                    <div class="p-3 bd-highlight"><i>12 décembre :</i> écouverte du Mont d'Or (Doubs).</div>
-                    <div class="p-3 bd-highlight"><i>15 janvier :</i> Falaises de Mers Les Bains (Somme)</div>
-                    <div class="p-3 bd-highlight"><i>23 mai :</i> Lac du Salagou (Herault)</div>
+                <div>
+                    <div class="p-3"><i>12 décembre :</i> D'écouverte du Mont d'Or (Doubs).</div>
+                    <div class="p-3"><i>15 janvier :</i> Falaises de Mers Les Bains (Somme)</div>
+                    <div class="p-3"><i>23 mai :</i> Lac du Salagou (Herault)</div>
                 </div>
             </aside>
         </div>
