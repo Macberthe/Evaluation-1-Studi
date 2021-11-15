@@ -10,3 +10,7 @@
 .background {
     background-color: #519fb6;
 }
+
+video {
+    max-width: 50rem;
+}
