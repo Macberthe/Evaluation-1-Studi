@@ -3,14 +3,21 @@
     margin: 10px;
     border-radius: 50%;
 }
-.bg-dark {
-    opacity: 85%;
-}
-
 .background {
     background-color: #519fb6;
 }
 
 video {
     max-width: 50rem;
+}
+h3,h5 {
+    font-family: "Gill Sans", sans-serif;
+}
+
+main {
+    background-color:  #f0f3f4;
+}
+
+.btn {
+    background-color: #519fb6;
 }
