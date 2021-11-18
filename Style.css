@@ -7,9 +7,6 @@
     background-color: #519fb6;
 }
 
-video {
-    max-width: 50rem;
-}
 h3,h5 {
     font-family: "Gill Sans", sans-serif;
 }
@@ -21,3 +18,16 @@ main {
 .btn {
     background-color: #519fb6;
 }
+
+@media screen and (max-width : 700px) and (orientation: portrait){
+    iframe {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .event {
+        width: 30vw;
+    }
+}
+
