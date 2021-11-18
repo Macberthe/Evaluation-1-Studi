@@ -6,13 +6,19 @@
 .background {
     background-color: #519fb6;
 }
+h2 {
+    font-style: italic;
+}
 
 h3,h5 {
     font-family: "Gill Sans", sans-serif;
 }
 
 main {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/Quadcopter_camera_drone_in_flight.jpg") ;
     background-color:  #f0f3f4;
+    background-position: center;
+    background-size: cover;
 }
 
 .btn {
@@ -31,3 +37,10 @@ main {
     }
 }
 
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+
+}
+}
