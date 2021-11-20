@@ -25,7 +25,7 @@ main {
     background-color: #519fb6;
 }
 
-@media screen and (max-width : 700px) and (orientation: portrait){
+@media screen and (max-width : 600px) and (orientation: portrait){
     iframe {
         display: none;
     }
@@ -38,8 +38,8 @@ main {
 }
 
 p {
+    font-size: large;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
     letter-spacing: 0.02em;
 
 }
